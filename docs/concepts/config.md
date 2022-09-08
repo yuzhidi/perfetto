@@ -222,7 +222,7 @@ cd ~/code/perfetto  # external/perfetto in the Android tree.
 
 protoc --encode=perfetto.protos.TraceConfig \
         -I. protos/perfetto/config/perfetto_config.proto \
-        < config.txpb \
+        < config.pbtx \
         > config.bin
 ```
 
